@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agri-Connect - Fixed Precision</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-color: #000;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .main-container {
+            position: relative;
+            width: 100%;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        .bg-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .product-item {
+            position: absolute;
+            width: 19.8%; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .image-box {
+            width: 100%;
+            aspect-ratio: 1/1;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            background: #fff;
+        }
+
+        .image-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .item-1 { top: 36.8%; left: 7.3%; }
+        .item-2 { top: 36.8%; left: 29.2%; }
+        .item-3 { top: 36.8%; left: 51.9%; }
+        .item-4 { top: 36.8%; left: 75.9%; } 
+        .product-info {
+            width: 95%;
+            margin-top: 12px;
+            padding: 8px 2px;
+            background: #e62117; 
+            border: 2px solid #fff;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .product-name {
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.1vw;
+            display: block;
+            text-transform: uppercase;
+        }
+        .product-price {
+            color: #ffff00; 
+            font-size: 1vw;
+            font-weight: bold;
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .product-name { font-size: 9px; }
+            .product-price { font-size: 8px; }
+            .product-info { margin-top: 5px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <img src="https://sf-static.upanhlaylink.com/img/image_202601032562b54a20c6e063db082bc55105c799.jpg" class="bg-image">
+
+        <div class="product-item item-1">
+            <div class="image-box">
+                <a href="LINK_1"><img src="https://sf-static.upanhlaylink.com/img/image_2026010378eadcb3e8123dc3ff7c432670ca52c9.jpg"></a>
+            </div>
+            <div class="product-info">
+                <span class="product-name">Quả bưởi</span>
+                <span class="product-price">20.000đ/Quả</span>
+            </div>
+        </div>
+
+        <div class="product-item item-2">
+            <div class="image-box">
+                <a href="LINK_2"><img src="https://sf-static.upanhlaylink.com/img/image_202601030b57cd4844bccb3367c5390e14596daa.jpg"></a>
+            </div>
+            <div class="product-info">
+                <span class="product-name">Quả ngô</span>
+                <span class="product-price">25.000đ/Kg</span>
+            </div>
+        </div>
+
+        <div class="product-item item-3">
+            <div class="image-box">
+                <a href="LINK_3"><img src="https://sf-static.upanhlaylink.com/img/image_202601030bdddcd1ad1484bf419d860dd0e42fce.jpg"></a>
+            </div>
+            <div class="product-info">
+                <span class="product-name">Súp lơ</span>
+                <span class="product-price">17.000đ/Cây</span>
+            </div>
+        </div>
+
+        <div class="product-item item-4">
+            <div class="image-box">
+                <a href="LINK_4"><img src="https://sf-static.upanhlaylink.com/img/image_202601032b55a3382a2e68cd5cb13273911a0f49.jpg"></a>
+            </div>
+            <div class="product-info">
+                <span class="product-name">Rau cần</span>
+                <span class="product-price">15.000đ/Kg</span>
+            </div>
+        </div>
+
+    </div>
+  <a href="https://lh10lm-arch.github.io/du-an-nong-san-xanh/"></a>
+
+</body>
+</html>
